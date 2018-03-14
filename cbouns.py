@@ -26,7 +26,7 @@ def classifier(classy, train, test):
     c = classy[1]
     c.fit(x_train, y_train)
     predict[classy[0]][test] = c.predict(x_test)
-    print("Index of", classy[0], accuracy_score(y, predict[classy[0]]))
+    #print("Index of", classy[0], accuracy_score(y, predict[classy[0]]))
 
 
 threads = []
